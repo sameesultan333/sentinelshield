@@ -1,0 +1,14 @@
+2026-06-20 23:33:58.715621 | 127.0.0.1 | <img src=x onerror=alert(1)> | XSS
+2026-06-20 23:34:25.672831 | 127.0.0.1 | hello world | Allowed
+2026-06-20 23:34:32.982477 | 127.0.0.1 | how to learn python | Allowed
+2026-06-20 23:34:36.995977 | 127.0.0.1 | <script>alert(1)</script> | XSS
+2026-06-20 23:35:08.260937 | 127.0.0.1 | ' OR 1=1 -- | SQL Injection
+2026-06-20 23:35:17.444898 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:04.680687 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:05.391641 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:05.541955 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:05.689856 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:05.840196 | 127.0.0.1 | ../../etc/passwd | Directory Traversal
+2026-06-20 23:41:05.978166 | 127.0.0.1 | ../../etc/passwd | Rate Limit Exceeded
+2026-06-20 23:41:13.476426 | 127.0.0.1 | <img src=x onerror=alert(1)> | Rate Limit Exceeded
+2026-06-20 23:41:42.075817 | 127.0.0.1 | ./../etc/passwd | Rate Limit Exceeded

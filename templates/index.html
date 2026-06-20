@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SentinelShield</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f4f6f8;
+}
+
+.container{
+    width:700px;
+    margin:auto;
+    margin-top:60px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    color:#1e293b;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+}
+
+button{
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+.result{
+    margin-top:20px;
+
+    padding:15px;
+
+    background:#e2e8f0;
+
+    border-radius:5px;
+}
+
+.links{
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🛡 SentinelShield</h1>
+
+<form>
+
+<input
+type="text"
+name="payload"
+placeholder="Enter payload to test"
+/>
+
+<button type="submit">
+Scan Request
+</button>
+
+</form>
+
+<div class="result">
+{{ result }}
+</div>
+
+<div class="links">
+
+<a href="/dashboard">
+View Dashboard
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
